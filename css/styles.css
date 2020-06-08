@@ -45,3 +45,7 @@ body {
 .navbar-dark {
     background-color: #512da8;
 }
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "/";
+}
